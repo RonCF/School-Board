@@ -72,7 +72,7 @@ export function Admin() {
         let assignmentList = [];
         
         if(json.data.length !== 0) {
-            json.data.map(data => {
+            json.data.map((data) => {
                 assignmentList.push(data);
             });
         }
